@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.seta{
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+}
+
+audio{
+    display: none;
+}
+
+.linha{
+    flex-direction: row;
+    display: flex;
+}
+
+.fundo{
+    /* scrollbar-color: red; */
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgb(251, 3, 160) 0%, rgba(253,29,29,1) 50%, rgba(251, 3, 160) 100%); */
+    background-image: url('ImagensNovas/fundo.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.conteiner{
+    width: 800px;
+    height: 1200px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1, h2, h3, h4, h5, p{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fotomaria{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    cursor: no-drop;
+}
+
+.fotoMaria{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 420px;
+    height: 720px;
+    border-radius: 15px;
+    cursor: no-drop;
+}
+
+.icoRight{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.animacaoFaded{
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+
+
+.conteinerCalendario{
+    width: 800px;
+    height: 1620px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendario{
+    
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.calendario tbody{
+    text-align: center;
+    color: rgb(255, 249, 249);
+}
+.calendario thead{
+    font-size: 0.5em;
+    font-weight: 700;
+}
+.calendario .marcado{
+    color: #FFF;
+    background-color: #dc3636;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.conteinerFoto{
+    width: 800px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem1{
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imagem2-15-abril{
+    width: 500px;
+    height: 650px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.conteudo1{
+    display: block;
+}
+
+.conteudo2{
+    display: none;
+}
+
+.conteudo3{
+    display: none;
+}
+
+
+.conteudo4{
+    display: none;
+}
+
+.conteudo5{
+    display: none;
+}
+
+.conteudo6{
+    display: none;
+}
+
+.conteudo7{
+    display: none;
+}
+
+.conteudo8{
+    display: none;
+}
+
+.conteudo9{
+    display: none;
+}
+
+.conteudo10{
+    display: none;
+}
+
+.conteudo11{
+    display: none;
+}
+
+.conteudo12{
+    display: none;
+}
+
+.conteudo13{
+    display: none;
+}
+
+.conteudo14{
+    display: none;
+}
+
+.conteudo15{
+    display: none;
+}
+
+.conteudo16{
+    display: none;
+}
+
+.conteiner-conteudo5{
+    width: 800px;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo6{
+    width: 800px;
+    height: 1650px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo7{
+    width: 800px;
+    height: 950px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo9{
+    width: 800px;
+    height: 2970px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo10{
+    width: 800px;
+    height: 1100px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo11{
+    width: 800px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
