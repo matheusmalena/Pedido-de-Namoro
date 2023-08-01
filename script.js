@@ -14,6 +14,9 @@ const conteudo13 = document.querySelector(".conteudo13");
 const conteudo14 = document.querySelector(".conteudo14");
 const conteudo15 = document.querySelector(".conteudo15");
 const conteudo17 = document.querySelector(".conteudo17");
+const conteudo18 = document.querySelector(".conteudo18");
+const conteudo29 = document.querySelector(".conteudo19");
+const conteudo20 = document.querySelector(".conteudo20");
 
 
 const conteudo16 = document.querySelector(".conteudo16");
@@ -184,22 +187,21 @@ function mudarFoto12(){
 function mudarFoto13(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo17.style.display = 'block';
+        conteudo15.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo17.style.display = 'none';
+        conteudo15.style.display = 'none';
     }
 }
 
-function mudarFot14(){
+function mudarFoto14(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
-        
+        conteudo17.style.display = 'block';
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo17.style.display = 'none';
     }
 }
 

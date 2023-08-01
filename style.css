@@ -227,6 +227,22 @@ h1, h2, h3, h4, h5, p{
     display: none;
 }
 
+.conteudo17{
+    display: none;
+}
+
+.conteudo18{
+    display: none;
+}
+
+.conteudo19{
+    display: none;
+}
+
+.conteudo20{
+    display: none;
+}
+
 .conteiner-conteudo3{
     width: 800px;
     height: 1000px;
@@ -417,4 +433,36 @@ h1, h2, h3, h4, h5, p{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto; 
+}
+
+.conteiner-conteudo15{
+    width: 800px;
+    height: 2900px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo17{
+    width: 800px;
+    height: 3200px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
