@@ -204,7 +204,7 @@
                         </thead>
                         <tr>
                             <td></td>
-                            <td>1</td>
+                            <td class="marcado" onclick="mudarFoto12()">1</td>
                             <td>2</td>
                             <td>3</td>
                             <td>4</td>
@@ -230,8 +230,8 @@
                             <td>20</td>
                         </tr>
                         <tr>
-                            <td>21</td>
-                            <td class="marcado" onclick="mudarFoto7()">22</td>
+                            <td class="marcado" onclick="mudarFoto7()">21</td>
+                            <td>22</td>
                             <td>23</td>
                             <td>24</td>
                             <td>25</td>
@@ -281,12 +281,12 @@
                                 <td class="marcado" onclick="mudarFoto9()">10</td>
                             </tr>
                             <tr>
-                                <td>11</td>
+                                <td class="marcado" onclick="mudarFoto10()">11</td>
                                 <td>12</td>
-                                <td class="marcado" onclick="mudarFoto11()">13</td>
-                                <td class="marcado" onclick="mudarFoto12()">14</td>
+                                <td>13</td>
+                                <td>14</td>
                                 <td>15</td>
-                                <td>16</td>
+                                <td class="marcado" onclick="mudarFoto11()">16</td>
                                 <td>17</td>
                             </tr>
                             <tr>
@@ -294,7 +294,7 @@
                                 <td>19</td>
                                 <td>20</td>
                                 <td>21</td>
-                                <td class="marcado" onclick="mudarFotoFinal()">22</td>
+                                <td>22</td>
                                 <td>23</td>
                                 <td>24</td>
                             </tr>
@@ -411,14 +411,16 @@
         <div>
             <button onclick="mudarFoto1()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
-        <div class="conteiner">
+        <div class="conteiner-conteudo3">
             <h1 style="margin-top: 10%;">Dia 5 de Março</h1>
             <h5>Nosso primeiro dia juntos</h5>
-            <img class="imagem1" src="./ImagensNovas/imagem1-5-marco.jpeg" alt="">
+            <img style="width: 410px; height: 620px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+                class="imagem1" src="./ImagensNovas/imagem1-5-marco.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>Nossos primeiros encontros sempre foram em pista de skate kkkk<br>Nesse dia te chamei para andarmos de skate lá na pump, voce tirou algumas fotos minhas, te ajudei a
-                    andar de skate, e demos muita risada com o Jaws e Za. <br>Foi lá que tudo começou, e aqui estamos até hoje...
-                     porém não oficializado ainda kkkkkk</h5>
+                <h5>Nossos primeiros encontros sempre foram em pista de skate kkkk<br>Nesse dia eu te chamei para andarmos
+                    de skate lá na pump, voce tirou algumas fotos minhas, eu te ajudei a
+                    andar de skate, e demos muita risada com o Jaws e Za. <br>Foi nesse dia que tudo começou, e aqui estamos
+                    até hoje... porém não oficializado ainda kkkkkk</h5>
             </small>
         </div>
     </div>
@@ -427,15 +429,13 @@
         <div>
             <button onclick="mudarFoto2()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
-        <div class="conteiner">
+        <div class="conteiner-conteudo4">
             <h1 style="margin-top: 10%;">Dia 15 de Abril</h1>
             <h5>Primeiro date</h5>
             <img class="imagem2-15-abril" src="./ImagensNovas/imagem1-15-abril.jpeg" alt="">
-            <small style="margin-top: 5%;">
-                <h5>Esse dia fomos dar um rolê no centro. "Primeiro encontro nosso" que te chamei para irmos comer no
-                    mac kkkk e depois fomos até o centro pela praia caminhando até uma loja de produtos de mulher e lá
-                    vc escolheu alguns esmaltes para pintar sua unha!</h5>
-            </small>
+            <small style="margin-top: 5%;"> <br>
+                <h5>Esse nosso "primeiro date" fomos almoçar no mac e depois fomos caminhando pela praia até o centro
+                    pq voce queria fazer algumas comprinhas... e lá eu te ajudei a escolher algumas cores de esmalte pra sua unha. Foi legal eu curti muito aquele dia! 😊</small>
         </div>
     </div>
 
@@ -449,8 +449,8 @@
             <img style="width: 400px; height: 600px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-21-abril.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>Esse dia você me chamou pra ver o jogo de volei lá em Sao Paulo junto com sua familia. Todos são
-                    super gente boa e engracados, me diverti muito aqueke dia. Porém o time de osacso perdeu, o
+                <h5>Esse dia você me chamou pra ver o jogo de volei lá em Sao Paulo junto com sua familia. Adorei conhecer eles, todos são
+                    super gente boa e engracados kkkkk me diverti muito aquele dia. <br>Porém o time de osacso perdeu, o
                     MULEKAO(tiffano) não aguentou carregar o time inteiro KKKKKKKKKKKK</h5>
             </small>
             <video style="width: 400px; height: 600px; border-radius: 20px; margin-top: 3%; margin-bottom: 2%;" autoplay
@@ -458,7 +458,7 @@
                 <source src="ImagensNovas/video21-abril.mp4" type="video/mp4">
             </video>
             <small style="margin-top: 5%;">
-                <h5>Aqui estavamos no carro da sua tia indo pra sp, e eu estava prendendo o colar em voce</h5>
+                <h5>Aqui estavamos no carro da sua tia indo pra sp, e eu estava prendendo o colar em voce 😊</h5>
             </small>
         </div>
     </div>
@@ -480,7 +480,7 @@
                 src="./ImagensNovas/imagem2-22-abril.jpeg" alt="">
             <small style="margin-top: 5%;">
                 <h5>Olha o desenhoooo...lembra? voce desenhou na parede do mil shake. Voce ilustrou toda a nossa tarde
-                    na praia! A gente jogando atinha, o sol, o mar, as nuvens, e o coracao com 2Ms <br>OBS: EU AMO ESSA
+                    na praia! A gente jogando altinha, o sol, o mar, as nuvens, e o coracao com 2Ms ❤️ <br>OBS: EU AMO ESSA
                     FOTO</h5>
             </small>
         </div>
@@ -493,12 +493,12 @@
         <div class="conteiner-conteudo7">
             <h1 style="margin-top: 10%;">Dia 27 de Abril</h1>
             <h5>Date</h5>
-            <img style="width: 400px; height: 570px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+            <img style="width: 400px; height: 590px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-27-abril.jpeg" alt="">
             <small style="margin-top: 5%;">
                 <h5>A gente saiu pra jantar na nova hamburgueria, que é muito boa aliás... O que me impressiona é que
                     toda vez que a gente sai junto, estamos SEMPRE usando roupas COMBINANDO! <br> <br>Isso eu acho
-                    INCRIVEL!
+                    INCRIVEL!❤️
                     <br>
                 </h5>
             </small>
@@ -509,9 +509,9 @@
         <div>
             <button onclick="mudarFoto6()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
-        <div class="conteiner">
+        <div class="conteiner-conteudo8">
             <h1 style="margin-top: 10%;">Dia 13 de Maio</h1>
-            <h5>Saidinho com os cria</h5>
+            <h5>Saidinha com os cria</h5>
             <img style="width: 450px; height: 600px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-13-maio.jpeg" alt="">
             <small style="margin-top: 5%;">
@@ -527,18 +527,19 @@
             <button onclick="mudarFoto7()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
         <div class="conteiner-conteudo9">
-            <h1 style="margin-top: 10%;">Dia 22 de Maio</h1>
+            <h1 style="margin-top: 10%;">Dia 21 de Maio</h1>
             <h5>Dia de Cinema</h5>
-            <img style="width: 400px; height: 650px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+            <img style="width: 400px; height: 670px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-22-maio.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>Aqui era a gente no carro, minha vó tinha levado a gente pra passear no shopping e lá vimos o filme Velozes e Furiosos que estava
+                <h5>Aqui era a gente no carro, minha vó tinha levado a gente pra passear no shopping e lá vimos o filme
+                    Velozes e Furiosos que estava
                     estreando, eu enchi seu saco pra vc ver esse filme KKKKKKKK eu amo filme de ação!</h5>
             </small>
             <img style="width: 450px; height: 600px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem3-22-maio.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>ACHO INCRIVEL COMO A GENTE SEMPRE COMBINA!</h5>
+                <h5>ACHO INCRIVEL COMO A GENTE SEMPRE SAI COMBINANDO!</h5>
             </small>
             <img style="width: 450px; height: 600px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem4-22-maio.jpeg" alt="">
@@ -546,10 +547,10 @@
                 <h5>Aqui era a gente no cinema!</h5>
             </small>
             <img style="width: 450px; height: 600px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
-            src="./ImagensNovas/imagem2-222-maio.jpeg" alt="">
-        <small style="margin-top: 5%;">
-            <h5>Olha a RATUZERRAAAAA KKKKKKKKKK essa foto é muito boa!</h5>
-        </small>
+                src="./ImagensNovas/imagem2-222-maio.jpeg" alt="">
+            <small style="margin-top: 5%;">
+                <h5>Olha a RATUZERRAAAAA KKKKKKKKKK essa foto é muito boa 😂❤️ Amei esse dia, foi incrivel!</h5>
+            </small>
         </div>
     </div>
 
@@ -563,7 +564,9 @@
             <img style="width: 450px; height: 700px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-3-junho.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>Essa foto da gente se olhando, tão bunitinhos! aff kkkkk Foi tirada no aniversário do Pastor, pela sua amiga Maria Clara no momento certo! <br><br> A qualidade não é tão boa mas é o momento que vale, gostei muito da foto!</h5>
+                <h5>Essa foto da gente se olhando, tão bunitinhos! aff kkkkk Foi tirada no aniversário do Pastor, pela
+                    sua amiga Maria Clara no momento certo! <br><br> A qualidade não é tão boa mas é o momento que vale,
+                    gostei muito da foto!</h5>
             </small>
         </div>
     </div>
@@ -578,7 +581,8 @@
             <img style="width: 400px; height: 720px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-10-junho.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>Nesse dia voce foi no cabeleleiro e saiu de lá loira, uma gatinha! <br>Amei muito, ficou muito linda!</h5>
+                <h5>Nesse dia voce foi no cabeleleiro e saiu de lá loira, uma gatinha! <br>Amei muito, ficou muito
+                    linda!</h5>
             </small>
         </div>
     </div>
@@ -587,16 +591,18 @@
         <div>
             <button onclick="mudarFoto10()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
-        <div class="conteiner">
+        <div class="conteiner-conteudo12">
             <h1 style="margin-top: 8%;">Dia 11 de Junho</h1>
-            <h5>Voce na minha casa</h5>
-            <img style="width: 400px; height: 720px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+            <h5>Minha casa</h5>
+            <img style="width: 400px; height: 650px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
                 src="./ImagensNovas/imagem1-11-junho.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>O dia que esperamos por duas semanas! Naquela mesma pegada que amamos, boas companhias, lugares
-                    agradáveis e ALCOOL!!! Dançamos e nos divertimos muitooo.<br>Esse dia eu todo sem jeito e com medo
-                    disse algo que estava entalado na minha garganta há um tempo.<br>O dia do nosso primeiro "Eu te
-                    amo".<br>Esse dia é muito especial.</h5>
+                <h5>Já fazia um tempinho que eu não te via, e estava com mta saudades. Então te convidei pra ir pra minha casa, almoçamos, jogamos uma altinha e ficamos ali de boa...</h5>
+            </small>
+            <img style="width: 400px; height: 650px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+                src="./ImagensNovas/pe.jpeg" alt="">
+            <small style="margin-top: 5%;">
+                <h5>Esse é o nosso pé depois de jogar bola kkkkkkkkk todo preto</h5>
             </small>
         </div>
     </div>
@@ -605,17 +611,25 @@
         <div>
             <button onclick="mudarFoto11()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
-        <div class="conteiner">
-            <h1 style="margin-top: 8%;">Dia 13 de Janeiro</h1>
-            <h5>Saidinha com os migos</h5>
-            <video style="width: 280px; height: 400px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;" autoplay
-                muted loop>
-                <source src="./ImagensNovas/videoMarilia.mp4" type="video/mp4">
-            </video>
+        <div class="conteiner-conteudo13">
+            <h1 style="margin-top: 8%;">Dia 16 de Junho</h1>
+            <h5>Dia dos Namorados</h5>
+            <img style="width: 400px; height: 650px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+            src="./ImagensNovas/comida.jpeg" alt="">   
             <small style="margin-top: 5%;">
-                <h5>Todo dia contigo é especial. Mais uma noite compartilhando a vida com você. Sendo feliz com
-                    você!!!<br><br>Esse vídeo mora no meu coração.</h5>
+                <h5>Como o dia dos namorados caiu bem numa segunda feira, e sabiamos que ia ficar corrido pra sair a noite. Decidimos criar o nosso próprio "dia dos namorados" no dia 16 de Junho kkkkkk <br> Saimos pra comer comida japonesa, umas das suas comidas favoritas...😋</h5>
             </small>
+            <img style="width: 410px; height: 550px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+            src="./ImagensNovas/imagem1-16-junho.jpeg" alt=""> 
+            <small style="margin-top: 5%;">
+                <h5>Te dei um buque muito lindo de flores, e voce me deu uma camiseta personalizada com seus beijinhos, eu AMEI DEMAIS!</h5>
+            </small>
+            <img style="width: 400px; height: 550px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+            src="./ImagensNovas/imagem2-16-junho.jpg" alt=""> 
+            <small style="margin-top: 5%;">
+                <h5>Esse dia foi muito ESPECIAL! Te amo muitao ❤️</h5>
+            </small>
+
         </div>
     </div>
 
@@ -624,16 +638,18 @@
         <div>
             <button onclick="mudarFoto12()"><img class="icoRight" src="./ImagensNovas/icoLeft.jpeg" alt=""></button>
         </div>
-        <div class="conteiner">
-            <h1 style="margin-top: 5%;">Dia 14 de Janeiro</h1>
-            <h5>Minha primeira vez em Santa Izabel!!</h5>
-            <img style="width: 250px; height: 400px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
-                src="./ImagensNovas/imagem21.jpg" alt="">
+        <div class="conteiner-conteudo14">
+            <h1 style="margin-top: 5%;">Dia 1 de Maio</h1>
+            <h5>Praia com os crias</h5>
+            <img style="width: 400px; height: 550px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+                src="./ImagensNovas/peixe.jpeg" alt="">
             <small style="margin-top: 5%;">
-                <h5>Acordamos juntinhos e fomos pra sua cidade pra eu conhecer sua família e suas pessoas próximas.
-                    Supriu todas as minhas expectativas, sua família é maravilhosa e espero ter mais contato e momentos
-                    com todos eles.<br>Vi de perto o quanto tua mãe é uma pessoa sensacional. Adorei a Dona
-                    Celma<br><br>E agora posso votar mais vezes sozinho porque tu me ensinou a pegar van hehehe.</h5>
+                <h5>Era feriado, então chamamos a tropa pra ir na praia. Lá encontramos um peixe boi muito engraçado KKKKKKKK</h5>
+            </small>
+            <img style="width: 400px; height: 550px; border-radius: 20px; margin-top: 2%; margin-bottom: 2%;"
+                src="./ImagensNovas/imagem1-1-maio.jpeg" alt="">
+            <small style="margin-top: 5%;">
+                <h5>Eu e voce ❤️</h5>
             </small>
         </div>
     </div>

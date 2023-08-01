@@ -227,9 +227,41 @@ h1, h2, h3, h4, h5, p{
     display: none;
 }
 
+.conteiner-conteudo3{
+    width: 800px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo4{
+    width: 800px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .conteiner-conteudo5{
     width: 800px;
-    height: 2000px;
+    height: 1700px;
     background-color: rgba(0, 0, 0, 0.75);
     color: #fff;
     text-align: center;
@@ -262,6 +294,22 @@ h1, h2, h3, h4, h5, p{
 .conteiner-conteudo7{
     width: 800px;
     height: 950px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo8{
+    width: 800px;
+    height: 1000px;
     background-color: rgba(0, 0, 0, 0.75);
     color: #fff;
     text-align: center;
@@ -321,4 +369,52 @@ h1, h2, h3, h4, h5, p{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.conteiner-conteudo12{
+    width: 800px;
+    height: 1700px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.conteiner-conteudo13{
+    width: 800px;
+    height: 2300px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.conteiner-conteudo14{
+    width: 800px;
+    height: 1400px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
 }
