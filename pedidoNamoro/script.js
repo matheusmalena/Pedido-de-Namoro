@@ -11,10 +11,13 @@ const heart = document.querySelector('.heart');
 buttonYes.addEventListener('click',()=>{
     content1.style.display = 'none';
     content2.style.display = 'block';
-    title.textContent = 'A VIDA É LINDA PRA CARALHO \nMAIS LINDA AINDA AO TEU LADO!!';
+    //title.textContent = 'A VIDA É LINDA, \n MAIS LINDA AINDA AO TEU LADO!';
+    title.textContent = 'VIVA OS MALINAS';
+
     title.style.fontSize = '3rem';
     
 }); 
+ 
 
 // Função de animação do coração.
 function heartBeat(){
