@@ -243,6 +243,14 @@ h1, h2, h3, h4, h5, p{
     display: none;
 }
 
+.conteudo21{
+    display: none;
+}
+
+.conteudo22{
+    display: none;
+}
+
 .conteiner-conteudo3{
     width: 800px;
     height: 1050px;
@@ -453,7 +461,103 @@ h1, h2, h3, h4, h5, p{
 
 .conteiner-conteudo17{
     width: 800px;
-    height: 3200px;
+    height: 3800px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo18{
+    width: 800px;
+    height: 6500px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo19{
+    width: 800px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo20{
+    width: 800px;
+    height: 1500px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo21{
+    width: 800px;
+    height: 1650px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo22{
+    width: 800px;
+    height: 1820px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-conteudo23{
+    width: 800px;
+    height: 1250px;
     background-color: rgba(0, 0, 0, 0.75);
     color: #fff;
     text-align: center;

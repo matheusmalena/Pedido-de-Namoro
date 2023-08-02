@@ -15,8 +15,11 @@ const conteudo14 = document.querySelector(".conteudo14");
 const conteudo15 = document.querySelector(".conteudo15");
 const conteudo17 = document.querySelector(".conteudo17");
 const conteudo18 = document.querySelector(".conteudo18");
-const conteudo29 = document.querySelector(".conteudo19");
+const conteudo19 = document.querySelector(".conteudo19");
 const conteudo20 = document.querySelector(".conteudo20");
+const conteudo21 = document.querySelector(".conteudo21");
+const conteudo22 = document.querySelector(".conteudo22");
+
 
 
 const conteudo16 = document.querySelector(".conteudo16");
@@ -208,55 +211,55 @@ function mudarFoto14(){
 function mudarFoto15(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
+        conteudo18.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo18.style.display = 'none';
     }
 }
 
 function mudarFoto16(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
+        conteudo19.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo19.style.display = 'none';
     }
 }
 
 function mudarFoto17(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
+        conteudo20.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo20.style.display = 'none';
     }
 }
 
 function mudarFoto18(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
+        conteudo21.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo21.style.display = 'none';
     }
 }
 
 function mudarFoto19(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
+        conteudo22.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo22.style.display = 'none';
     }
 }
 
