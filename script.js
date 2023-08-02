@@ -19,6 +19,7 @@ const conteudo19 = document.querySelector(".conteudo19");
 const conteudo20 = document.querySelector(".conteudo20");
 const conteudo21 = document.querySelector(".conteudo21");
 const conteudo22 = document.querySelector(".conteudo22");
+const conteudo23 = document.querySelector(".conteudo23");
 
 
 
@@ -266,11 +267,11 @@ function mudarFoto19(){
 function mudarFoto20(){
     if(conteudo2.style.display == 'block'){
         conteudo2.style.display = 'none';
-        conteudo5.style.display = 'block';
+        conteudo23.style.display = 'block';
         
     }else{
         conteudo2.style.display = 'block';
-        conteudo5.style.display = 'none';
+        conteudo23.style.display = 'none';
     }
 }
 
